@@ -3,7 +3,7 @@ function smaller(input1,input2){
 
     if(isNaN(input1)||isNaN(input2))
     {
-        console.log("Re-enter number");
+        console.log("Re-enter numbers");
         input1=window.prompt("Enter first number");
         input2=window.prompt("Enter second number");
         smaller(input1,input2);
